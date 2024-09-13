@@ -1,0 +1,51 @@
+.comp1{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.b1{
+    display: block;
+    margin: 0 auto;
+    background-color: darkblue;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 10px 10px;
+    height: 60px;
+    width: 190px;
+    border: 3px solid white;
+    transition: background-color 0.3s ease;
+}
+
+.b1:hover{
+    background-color: white;
+    color: darkblue;
+    border: 3px solid darkblue;
+    font-weight: bold;
+}
+
+.b1:disabled{
+    background-color: white;
+    color: rgb(207, 211, 255);
+    border: 3px solid rgb(207, 211, 255);
+    font-weight: bold;
+}
+
+label{
+    color: darkblue;
+}
+
+textarea{
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 15px;
+    border: 3px dashed darkblue;
+}
+
+input[type="number"]{
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    color: darkblue;
+    font-size: 15px;
+}
+
