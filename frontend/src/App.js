@@ -9,7 +9,7 @@ function App() {
   const [formData, setFormData] = useState({
     articulo: '',
     resumen: '',
-    longitud: '300'
+    longitud: '100'
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
